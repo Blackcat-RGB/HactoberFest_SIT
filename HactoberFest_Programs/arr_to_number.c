@@ -8,7 +8,7 @@ int main(){
 	for(i=0;i<dig;i++){
 		printf("\nEnter %dth digit: ",i+1);
 		scanf("%d",&arr[i]);
-		number=number+arr[i]*pow(10,i);
+		number=number*pow(10,1)+arr[i]*10;
 	}
 	printf("\nThe number is: %d\n",number);
 return 0;
